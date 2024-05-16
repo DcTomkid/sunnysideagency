@@ -1,0 +1,318 @@
+
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3EBFFF;
+    height: 6vh;
+}
+.nav-logo{
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: lighter;
+}
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items li{
+    padding-right: 15px;
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-items li button{
+    background:#fff;
+    color: black;
+    border-radius: 9px;
+    border: 1px solid #fff;
+}
+.creative{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url('./images/desktop/image-header.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.text{
+    margin-top: 100px;
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    font-size: 30px;
+}
+.text > h1{
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+
+#part-1 {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+}
+.img1{
+    background-image: url('./images/desktop/image-transform.jpg');
+    background-size: cover;  
+    height: 80vh;
+    width: 50vw;
+}
+.content{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.content a{
+    margin-top: 20px;
+    margin-right: 110px;
+    text-decoration: none;
+    border-bottom: 10px solid rgb(255, 213, 128);
+    font-family: 'Fraunces', serif;
+    height: 10px;
+    color: black;
+    text-transform: uppercase ;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+
+}
+.img2{
+    background-image: url('./images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    width: 80vw;
+}
+.img3{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img3 > h1{
+    font-family: 'Fraunces', serif;
+    margin-left: 50px;
+}
+.img3 p{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.img3 a{
+    margin-top: 20px;
+    margin-right: 175px;
+    text-decoration: none;
+    border-bottom: 10px solid rgb(255, 213, 128);
+    font-family: 'Fraunces', serif;
+    height: 10px;
+    color: black;
+    text-transform: uppercase ;
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.img4{
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.note{
+    margin-bottom: 40px;
+    
+}
+.img4 > h1{
+    font-family: 'Fraunces', serif;
+}
+.img5{
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-size: cover;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.note1{
+    margin-bottom: 40px;
+    
+}
+.img5 > h1{
+    font-family: 'Fraunces', serif;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+.one {
+    color: #333;
+    font-family: 'Fraunces', serif;
+    font-weight: lighter !important;
+    color: grey;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.img6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img6 > img{
+    border-radius: 50%;
+    width: 40px;
+}
+.img-7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img-7 > img{
+    border-radius: 50%;
+    width: 40px;
+}
+.img8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img8 > img{
+    border-radius: 50%;
+    width: 40px;
+}
+.name1{
+    font-family: 'Fraunces', serif;
+    font-size: .9rem;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+.name1 > strong {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+.name2{
+    font-family: 'Fraunces', serif;
+    font-size: .9rem;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+.name2 > strong {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+.name3{
+    font-size: .9rem;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+.name > strong {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+.second-end{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    margin-top: 100px;
+}
+.end1{
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+    width: 50vw;
+}
+.end2{
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+    width: 50vw;
+}
+.end3{
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+    width: 50vw;
+}
+.end4{
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+    width: 50vw;
+}
+.footer{
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.sunny-end{
+    color:  hsl(167, 40%, 24%);
+    margin-top: 60px;
+}
+.final-end {
+    display: flex;
+    margin-top: 30px;
+}
+.final-end li{
+    margin-bottom: 20px;
+    padding-right: 20px;
+    list-style: none;
+}
+.final-end a{
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+.ending {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.ending > li{
+    padding: 20px;
+    list-style: none;
+}
+.ending i {
+    color: hsl(167, 40%, 24%);
+}
